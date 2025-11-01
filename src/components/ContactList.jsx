@@ -38,7 +38,15 @@ const ContactList = () => {
 
   return (
     <div>
-      <Box sx={{ width: '100%', display: 'flex', gap: 1, flexWrap: 'nowrap' marginBottom: '20px'}}>
+      <Box
+        sx={{
+          width: '100%',
+          display: 'flex',
+          gap: 1,
+          flexWrap: 'nowrap',
+          marginBottom: '20px',
+        }}
+      >
         <input
           className="search-input"
           placeholder="Search by name or number"
